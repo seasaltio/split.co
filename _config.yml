@@ -1,0 +1,27 @@
+# Site settings
+title: Split
+description: Get rewarded for sharing great recommendations with your friends and family.
+baseurl: "http://split.co"
+url: "http://split.co"
+
+ga_id: "UA-62409466-1"
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+exclude:
+  - '*.haml'
+  - '*.rb'
+  - '*.coffee'
+  - '*.yml'
+  - '.fontcustom-manifest.json'
+  - 'Guardfile'
+  - 'Procfile'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'Readme.md'
+  - 'bower_components'
+  - 'node_modules'
+  - 'gulpfile.js'
+  - 'package.json'

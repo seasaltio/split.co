@@ -1,0 +1,29 @@
+.footer
+  +vertical-spacing(padding, 1.5)
+  font-size: 1em
+  text-align: center
+
+  +desktop
+    text-align: left
+
+.footer-links
+  +vertical-spacing(margin, 0, 1)
+  +desktop
+    +vertical-spacing(margin, 0)
+    text-align: left
+    +span(5)
+    +push(1)
+
+.footer-links a
+  text-decoration: underline
+  color: white
+
+.footer-links a:hover
+  color: rgba(255, 255, 255, 0.8)
+
+.footer-info
+  +desktop
+    text-align: right
+    +span(5)
+
+
